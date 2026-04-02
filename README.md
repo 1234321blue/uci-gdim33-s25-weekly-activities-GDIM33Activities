@@ -1,7 +1,7 @@
 # GDIM 33 In-Class Activities
 ## W1
 ### Activity 1
-Put your inspo board link here. Do NOT leave a bare URL. REMOVE ALL INSTRUCTIONAL TEXT.
+[Inspiration Board](https://docs.google.com/drawings/d/1dxorjoHsMiGoPXZ-0ofgFU93JSiXNur6REXIowsvHMo/edit?usp=sharing)
 
 1. Put your activity 1 answers here.
 2. Please keep the proper list format.
