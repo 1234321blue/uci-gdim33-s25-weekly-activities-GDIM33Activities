@@ -9,9 +9,9 @@
 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+[Break-Down Image](https://docs.google.com/drawings/d/1AbqQmmtKnX526lXY_CJmbZrr-NEuwEeaSj1bynbaV3U/edit?usp=sharing)
 
 
 ## W2
 ### Activity 1
-Elijah
+
