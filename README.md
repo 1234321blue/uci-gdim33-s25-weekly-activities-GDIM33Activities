@@ -12,6 +12,16 @@
 [Break-Down Image](https://docs.google.com/drawings/d/1AbqQmmtKnX526lXY_CJmbZrr-NEuwEeaSj1bynbaV3U/edit?usp=sharing)
 
 
-## W2
+## W4
 ### Activity 1
+1a. In my build right now, players control a player character in first person that can walk and jump around the world (camera control not yet implemented). They can pick up an item in the world, a ball, by running into it, which boosts their jump height. There are also walls in the world for players to jump over.
+1b. For my playtest, my primary goal is to learn what aesthetics my players think would best go along with my game, to get a better idea of what I want to do aesthetically in my world. Other than that, I also want to ask how my speed and jump values feel currently and if they feel good to move with or need some adjusting.
+
+2. Playtesting Team: Jeremiah Yang(Me), Brandon Tsay, Ke-Chieh Chang, Jingyi Cheng
+
+3. Playtesting Notes:
+   - Ball item sticks to player wherever they touch it from, need to fix
+  
+   - 
+
 
