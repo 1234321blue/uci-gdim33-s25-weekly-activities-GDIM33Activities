@@ -29,6 +29,9 @@
    - Needs camera movement as gameplay feels restricted currently
 
 ### Activity 2
+1. As long as the scale of the game was practical, a writer could easily write more dialogue without having to code anything as they can just add more dialogue nodes and connect them together, which can all be done within Unity.
+   
+2. The only technically real limit is the # of choices you can have on screen, but in sense of practicality, at some point there probably become too many dialogue nodes to properly organize in your project files, plus I imagine that a massive number of them could slow down or add to the size of the game negatively.
 
-
+3. It creates all the Nodes that are available to create based on what things you have installed in your code library.
 
