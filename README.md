@@ -22,6 +22,13 @@
 3. Playtesting Notes:
    - Ball item sticks to player wherever they touch it from, need to fix
   
-   - 
+   - Ball feels rigid, players suggested making it "feel" bouncier by making it a bouncy ball or possibly balloon
+  
+   - Movement smooth, jump feels too floaty though
+  
+   - Needs camera movement as gameplay feels restricted currently
+
+### Activity 2
+
 
 
