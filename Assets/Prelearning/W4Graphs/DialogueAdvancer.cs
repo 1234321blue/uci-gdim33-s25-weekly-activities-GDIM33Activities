@@ -1,5 +1,6 @@
 using UnityEngine;
 using Unity.VisualScripting;
+using W4Activity;
 
 public class DialogueAdvancer : MonoBehaviour
 {

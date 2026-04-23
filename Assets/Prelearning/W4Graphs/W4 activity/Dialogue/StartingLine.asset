@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: StartingLine
+  m_EditorClassIdentifier: 
+  Line: I'm going to ace this class!!!!
+  ReplyOptions:
+  - line: u got that!!!
+    nextNode: {fileID: 11400000, guid: 71f708dc744484314b116cf6e1ad05f6, type: 2}
+  - line: sure u are
+    nextNode: {fileID: 11400000, guid: 514f348a157b44c4cac0e76a64fb39b5, type: 2}
