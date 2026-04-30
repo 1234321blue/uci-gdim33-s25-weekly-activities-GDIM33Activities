@@ -35,3 +35,26 @@
 
 3. It creates all the Nodes that are available to create based on what things you have installed in your code library.
 
+
+## W5
+### Activity 1
+#### 1. Basic Steps
+1a. 
+
+1b.
+
+1c.
+
+#### 2. Substeps
+2a. 
+
+2b.
+
+2c.
+
+2d.
+
+2e.
+
+### Activity 2
+
