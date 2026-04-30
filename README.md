@@ -39,22 +39,18 @@
 ## W5
 ### Activity 1
 #### 1. Basic Steps
-1a. 
+1a. Create a QuestNode ScriptableObject class.
 
-1b.
-
-1c.
+1b. Create a class that checks for quest completion and, if complete, runs next mission by checking QuestNode class.
 
 #### 2. Substeps
-2a. 
+2a. Create QuestNode ScriptableObject class and create them in project to test if its working.
 
-2b.
+2b. Create a GameController script that keeps track of the current quest, adding a QuestNode member variable. Test by attatching one of your created QuestNodes in Unity to this script (To do this, create an empty object and attach the script to it).
 
-2c.
+2c. Add a method in the GameController script that checks if the QuestStatus of the QuestNode member variable is "Complete". Test by using Debug.Log to write to console when QuestStatus of current QuestNode is "Complete".
 
-2d.
-
-2e.
+2d. Adjust the last method to set the script's QuestNode member variable to the nextQuest QuestNode variable stored in the current QuestNode. Test by using Debug.Log to send a message if the current QuestNode is different than the one initially stored in it. 
 
 ### Activity 2
-
+Today, I got the main chunk of my quest system working. I created a ScriptableObject class (QuestNode) that keeps data about a quest, with the important information that actually affects things right now being the questStatus, an enum variable keeping track of the completion status of the quest between Ongoing, Complete, and Failed. Also, it holds a QuestNode variable, nextQuest, which should be the following quest once the player completes the current one. To get this going though, I also created a GameController script that checks for the completion status of the currentQuest, a QuestNode member variable holding the system's current quest. If the status is Complete, than the currentQuest is set to whatever the current currentQuest's nextQuest variable is set to. Testing this all in Unity, I created an empty GameController object in my scene and added the GameController script to it along with creating and then attaching some QuestNodes to test everything out. 
