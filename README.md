@@ -66,4 +66,7 @@ Today, I got the main chunk of my quest system working. I created a ScriptableOb
 2. Add indicators for what ability is powered up when holding an item.
 3. Add indicators for where the objective of any given mission.
 ### Activity 2
-1. 
+1. By multiplying color vectors RGB with the values being decimals on a scale of 0 to 1, meaning the values are likely less than 1, the resulting vector will have values closer to 0, which ultimately make the colors closer to black, meaning they get blacker and less saturated.
+2. Multiplying Alpha values together will make the resulting value more transluscent as multiplying decimals less than one together result in a smaller value, or more specifically in this case a value closer to 0, which makes the value more transluscent.
+3. The vertexes on the shiba model holds the UV values that match up to the shiba texture we have.
+4. Manipulating colors with math sounds terrifying and confusing to me. I haven't done actual math in a hot minute, so I don't know how well I can take use or even understand it. Plus, it's mean to take the simplicity of color we learned as children and adding bad, bad, evil numbers to it.
