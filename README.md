@@ -54,3 +54,16 @@
 
 ### Activity 2
 Today, I got the main chunk of my quest system working. I created a ScriptableObject class (QuestNode) that keeps data about a quest, with the important information that actually affects things right now being the questStatus, an enum variable keeping track of the completion status of the quest between Ongoing, Complete, and Failed. Also, it holds a QuestNode variable, nextQuest, which should be the following quest once the player completes the current one. To get this going though, I also created a GameController script that checks for the completion status of the currentQuest, a QuestNode member variable holding the system's current quest. If the status is Complete, than the currentQuest is set to whatever the current currentQuest's nextQuest variable is set to. Testing this all in Unity, I created an empty GameController object in my scene and added the GameController script to it along with creating and then attaching some QuestNodes to test everything out. 
+
+## W6
+### Activity 1
+#### Pre-Playtest
+1. Nothing new has been added since milestone 1 :|.
+2. [Playtesting Link](https://1234321blue.itch.io/playtest-2-gdim-33)
+3. My playtesting goal for today is to find out if the movement and camera control in my current build feels smooth/nice to play with.
+#### Playtesting Notes
+1. Camera could be adjusted to possibly bounce a little to give a more realistic feel.
+2. Add indicators for what ability is powered up when holding an item.
+3. Add indicators for where the objective of any given mission.
+### Activity 2
+1. 
