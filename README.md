@@ -72,4 +72,10 @@ Today, I got the main chunk of my quest system working. I created a ScriptableOb
 4. Manipulating colors with math sounds terrifying and confusing to me. I haven't done actual math in a hot minute, so I don't know how well I can take use or even understand it. Plus, it's mean to take the simplicity of color we learned as children and adding bad, bad, evil numbers to it.
 
 ## W7
-1. 
+1. The data for the Vertex Color Node came from the shiba mesh itself.
+2. The blending of colors in the shiba from step 3 results from the interlopation of data from the vertices, filling all the spaces in between all the verticies. This means that as the surface normals begin adjusting on the surface of the shiba and the vectors in turn start to change colors, the space between the verticies would form a more gradual color shift as they get closer or farther from a vertex point. 
+3. The shiba we rendered with a texture is more detailed than the one we rendered with a vertex color as there is more variance in the color of verticies with the texture than the one rendered with the vertex color, meaning more aspects of the shiba pop out than the one today which was fairly similar colors in similar regions.
+4. For the shiba in step 3, there is a green splotch randomly on its left thigh amongst the shades of blue, indicating possibly something wrong with the surface normals there.
+5. You could possibly test UV Maps with the same type of color output testing so you could visualize where your texture would go on your mesh once you learned what the color association of a texture to a mesh was. 
+6. As observed in question 4, the back of the shiba has some vertices with weird surface normals, resulting in a different dot products than of the vertices around that area, thereby creating a weird black spot that shouldn't be there.
+7. We set the Blend Mode to Addititive for the fire effect as we wanted to add the colors of the fire to the alpha value to create a colorful, transparent tint over the game object.
