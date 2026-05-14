@@ -70,3 +70,6 @@ Today, I got the main chunk of my quest system working. I created a ScriptableOb
 2. Multiplying Alpha values together will make the resulting value more transluscent as multiplying decimals less than one together result in a smaller value, or more specifically in this case a value closer to 0, which makes the value more transluscent.
 3. The vertexes on the shiba model holds the UV values that match up to the shiba texture we have.
 4. Manipulating colors with math sounds terrifying and confusing to me. I haven't done actual math in a hot minute, so I don't know how well I can take use or even understand it. Plus, it's mean to take the simplicity of color we learned as children and adding bad, bad, evil numbers to it.
+
+## W7
+1. 
