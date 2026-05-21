@@ -89,7 +89,7 @@ Today, I got the main chunk of my quest system working. I created a ScriptableOb
 #### Playtesting Notes
 1. Game direction feels unclear with all the base or default assets, try and incorporate assets into scene to make for more visually interesting game with better direction.
 ### Activty 2C
-1. fjkdal
+1. The name of the pass associated with our post-processing effect is the FullScreenPassRendererFeature, which we can tell is the one that applies our post-processing effect as we can see on the draw calls in the pass our effect being applied to the originally effectless screen.
 2. At 0.5, the screen has a slight overlay of the texture, but only barely, with the original screen without the texture still appearing to be more predominant. At 0, the screen no longer has any hint of the texture over it, just being the original screen without any overlay. At 1, the screen looks like it did before we added the lerp node, where it is pitch red with the textures clearly running over the original screen. 
 3. The screen looks different at different lerp values because the number we were changing determines how much percentage between the values of the original screen and the texture overlay we were applying, with values closer to 0 leaving out more of the texture overlay and values closer to 1 adding more of it. 
 4. In the base sin(time) graph, values range from -1 to 1. From these, we have possible negative values, which results in the weird bright effect we got when we just inputed x as sin(time). As opposed to this, in the (sin(time)+1)/2 graph, values range from 0 to 1, meaning we just go from no overlay, to the regular texture overlay without any of the negative values interupting this transition.
