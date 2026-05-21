@@ -79,3 +79,17 @@ Today, I got the main chunk of my quest system working. I created a ScriptableOb
 5. You could possibly test UV Maps with the same type of color output testing so you could visualize where your texture would go on your mesh once you learned what the color association of a texture to a mesh was. 
 6. As observed in question 4, the back of the shiba has some vertices with weird surface normals, resulting in a different dot products than of the vertices around that area, thereby creating a weird black spot that shouldn't be there.
 7. We set the Blend Mode to Addititive for the fire effect as we wanted to add the colors of the fire to the alpha value to create a colorful, transparent tint over the game object.
+
+## W8
+### Activity 1
+#### Pre-Playtest
+1. Nothing new has been added since milestone 2 :|.
+2. [Playtesting Link](https://1234321blue.itch.io/playtest-2-gdim-33)
+3. My playtesting goal for today is to find out what gameplay mechanics may be unclear in my game's current form.
+#### Playtesting Notes
+1. Game direction feels unclear with all the base or default assets, try and incorporate assets into scene to make for more visually interesting game with better direction.
+### Activty 2C
+1. fjkdal
+2. At 0.5, the screen has a slight overlay of the texture, but only barely, with the original screen without the texture still appearing to be more predominant. At 0, the screen no longer has any hint of the texture over it, just being the original screen without any overlay. At 1, the screen looks like it did before we added the lerp node, where it is pitch red with the textures clearly running over the original screen. 
+3. The screen looks different at different lerp values because the number we were changing determines how much percentage between the values of the original screen and the texture overlay we were applying, with values closer to 0 leaving out more of the texture overlay and values closer to 1 adding more of it. 
+4. In the base sin(time) graph, values range from -1 to 1. From these, we have possible negative values, which results in the weird bright effect we got when we just inputed x as sin(time). As opposed to this, in the (sin(time)+1)/2 graph, values range from 0 to 1, meaning we just go from no overlay, to the regular texture overlay without any of the negative values interupting this transition.
