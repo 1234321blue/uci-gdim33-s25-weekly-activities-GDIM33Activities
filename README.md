@@ -93,3 +93,11 @@ Today, I got the main chunk of my quest system working. I created a ScriptableOb
 2. At 0.5, the screen has a slight overlay of the texture, but only barely, with the original screen without the texture still appearing to be more predominant. At 0, the screen no longer has any hint of the texture over it, just being the original screen without any overlay. At 1, the screen looks like it did before we added the lerp node, where it is pitch red with the textures clearly running over the original screen. 
 3. The screen looks different at different lerp values because the number we were changing determines how much percentage between the values of the original screen and the texture overlay we were applying, with values closer to 0 leaving out more of the texture overlay and values closer to 1 adding more of it. 
 4. In the base sin(time) graph, values range from -1 to 1. From these, we have possible negative values, which results in the weird bright effect we got when we just inputed x as sin(time). As opposed to this, in the (sin(time)+1)/2 graph, values range from 0 to 1, meaning we just go from no overlay, to the regular texture overlay without any of the negative values interupting this transition.
+
+## W9
+### Activity 1
+Game: Minecraft 
+
+1. In Minecraft, when entering a nether portal, you get a swirly, purple effect over your screen. To implement this ourselves, our group talked about how we would make this a full-screen or post processing effect as the effect covers the player's whole screen when they enter the portal. The effect itself would probably be a range of purples across the screen, shifting slowly in an inconsistent circle, creating that whirly effect hopefully. For it's activation, we would check when the player is in the portal and activating the effect when they are. 
+2. In Minecraft, when something gets hit by a splashing potion, it emits a bunch of mini swirls above itself. To implement this ourselves, our group talked about how this effect would be attached to the potion itself as the effect sometimes misses a valid target and hits the floor, but still emits the effect from where it landed. 
+### Activity 2
