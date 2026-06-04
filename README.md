@@ -103,3 +103,17 @@ Game: Minecraft
 ### Activity 2
 <img width="2560" height="1492" alt="image" src="https://github.com/user-attachments/assets/4a2fa806-394a-4da9-a0fb-48b35c33ae04" />
 I created my first ShaderGraph for my project today, which is going to be a post-processing, full-screen effect that occurs when a player picks up the ball item. The actual effect I wanted to create was a circle gradient of green, with more transparency in the middle as to not get in the way of the player's vision of what was in game. I also wanted to add a slight pulsing effect like we created in the W8 activity. The majority of my time was spent figuring out how to create that circle gradient effect I wanted in addition to adjusting the equation we used last week for the pulsing effect in order to get my preferred range of colors.
+
+## W10
+### Activity 1
+#### Pre-Playtest
+1. Nothing new has been added since milestone 3 :|.
+2. [Playtesting Link](https://1234321blue.itch.io/playtest-2-gdim-33)
+3. My playtesting goal for today is to find out what aesthetics need immediate attention.
+#### Playtesting Notes
+1. Everything is generally plain, but environment feels most important as game currently feels like it was definitly built in Unity.
+2. Add way to "win", as always finishing with lose screen no matter what feels depressing.
+### Activity 2
+The strategy our team came up with started with the brainstorming process about what systems and parts your game needs to function. This would be translating mechanics and ideas into what they're potential real build counterpart would be, like a game object or a class you need to make. From here, you should connect together related systems and parts to understand how they will function together in the game. This overall mapping sets the stage for starting to know what you need to build to complete the game. Once you have your base level understanding, make a step by step plan for each system, breaking down what you actually need to do to get the specific system functioning in game. In planning out your game like this, you can better understand the scope of the game you are trying to create as you can see the actual steps needed to complete every part of your game, giving you a better vision for the time you may need to complete your project.
+### Activity 3
+I implemented a basic title screen and made a win screen for once you complete all the quests, may change in the future to reflect that this is theoretically a smaller part of a larger project.
